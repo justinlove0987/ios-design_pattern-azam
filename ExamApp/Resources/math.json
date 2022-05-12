@@ -1,0 +1,22 @@
+
+{
+    "questions" :
+    [
+        {
+            "text" : "Is 2+2 = 4?",
+            "point" : 10,
+            "isCorrect" : true
+        },
+        {
+            "text" : "Is 5+2 = 4?",
+            "point" : 10,
+            "isCorrect" : false
+        },
+        {
+            "text" : "Is 10+2 = 12?",
+            "point" : 10,
+            "isCorrect" : true
+        }
+    ]
+}
+
