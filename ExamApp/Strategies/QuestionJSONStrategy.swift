@@ -26,7 +26,7 @@ class QuestionJSONStrategy :QuestionStrategy {
     }
     
     required init(name :String) {
-        
+        print("foo - \(name)")
         if let path = Bundle.main.path(forResource: name, ofType: "json") {
             
             let data = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
