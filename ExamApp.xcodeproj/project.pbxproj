@@ -20,6 +20,10 @@
 		8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */; };
 		8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */; };
 		8DE57232213F8090006B06BD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE57231213F8090006B06BD /* Question.swift */; };
+		D02B9D0428324CB500E5BB3D /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */; };
+		D02B9D0528324CB500E5BB3D /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */; };
+		D02B9D0628324CB500E5BB3D /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */; };
+		D02B9D0828324D7700E5BB3D /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9D0728324D7700E5BB3D /* AppSettingsViewController.swift */; };
 		D0D48D18283227BB00B918FB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D48D17283227BB00B918FB /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,10 @@
 		8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupTableViewController.swift; sourceTree = "<group>"; };
 		8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		8DE57231213F8090006B06BD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar@2x.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
+		D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar@3x.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
+		D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar.png"; sourceTree = "<group>"; };
+		D02B9D0728324D7700E5BB3D /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		D0D48D17283227BB00B918FB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +98,7 @@
 		8DE57215213F648B006B06BD /* ExamApp */ = {
 			isa = PBXGroup;
 			children = (
+				D02B9D0028324C7400E5BB3D /* Images */,
 				8DC0672B21405EC500402650 /* Resources */,
 				8DC0672621405DE200402650 /* Strategies */,
 				8DE57229213F64E0006B06BD /* Models */,
@@ -109,6 +118,7 @@
 			children = (
 				8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */,
 				8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */,
+				D02B9D0728324D7700E5BB3D /* AppSettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,6 +131,16 @@
 				D0D48D17283227BB00B918FB /* AppSettings.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D02B9D0028324C7400E5BB3D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */,
+				D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */,
+				D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE57221213F648C006B06BD /* LaunchScreen.storyboard in Resources */,
+				D02B9D0428324CB500E5BB3D /* 740-gear-toolbar@2x.png in Resources */,
+				D02B9D0528324CB500E5BB3D /* 740-gear-toolbar@3x.png in Resources */,
 				8DE5721E213F648C006B06BD /* Assets.xcassets in Resources */,
+				D02B9D0628324CB500E5BB3D /* 740-gear-toolbar.png in Resources */,
 				8DE5721C213F648B006B06BD /* Main.storyboard in Resources */,
 				8DC0672D21405EDA00402650 /* math.json in Resources */,
 			);
@@ -197,6 +220,7 @@
 			files = (
 				8DE57219213F648B006B06BD /* ViewController.swift in Sources */,
 				8DE57217213F648B006B06BD /* AppDelegate.swift in Sources */,
+				D02B9D0828324D7700E5BB3D /* AppSettingsViewController.swift in Sources */,
 				8DC0672A21405E8300402650 /* QuestionJSONStrategy.swift in Sources */,
 				8D592FA82140343700F12306 /* QuestionGroup.swift in Sources */,
 				8DE57232213F8090006B06BD /* Question.swift in Sources */,

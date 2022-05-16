@@ -26,7 +26,6 @@ class QuestionsViewController :UIViewController {
         
         populateQuestions()
         
-        print("foo - type \(type(of: QuestionOrderType.someCases.first!))")
         print("foo - caseIterable \(QuestionOrderType.allCases)")
     }
     
