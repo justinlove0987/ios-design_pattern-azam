@@ -25,6 +25,9 @@ class QuestionsViewController :UIViewController {
         self.title = questionGroup.displayName
         
         populateQuestions()
+        
+        print("foo - type \(type(of: QuestionOrderType.someCases.first!))")
+        print("foo - caseIterable \(QuestionOrderType.allCases)")
     }
     
     private func populateQuestions() {

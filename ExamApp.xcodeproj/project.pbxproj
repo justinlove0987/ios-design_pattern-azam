@@ -20,6 +20,7 @@
 		8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */; };
 		8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */; };
 		8DE57232213F8090006B06BD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE57231213F8090006B06BD /* Question.swift */; };
+		D0D48D18283227BB00B918FB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D48D17283227BB00B918FB /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupTableViewController.swift; sourceTree = "<group>"; };
 		8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		8DE57231213F8090006B06BD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D0D48D17283227BB00B918FB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				8DE57231213F8090006B06BD /* Question.swift */,
 				8D592FA72140343700F12306 /* QuestionGroup.swift */,
+				D0D48D17283227BB00B918FB /* AppSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				8DC0672F21405F7600402650 /* QuestionXMLStrategy.swift in Sources */,
 				8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */,
 				8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */,
+				D0D48D18283227BB00B918FB /* AppSettings.swift in Sources */,
 				8DC0672821405E1000402650 /* QuestionStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
