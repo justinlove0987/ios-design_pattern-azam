@@ -17,17 +17,18 @@ class AppSettings {
         static var questionOrderType = "questionOrderType"
     }
     
-    var questionOrderType: QuestionOrderType {
+    var questionOrderType :QuestionOrderType {
         
         get {
+            
             let userDefaults = UserDefaults.standard
             let rawValue = userDefaults.integer(forKey: Keys.questionOrderType)
             return QuestionOrderType(rawValue: rawValue)!
-        }
-        set {
+            
+        } set {
             let userDefaults = UserDefaults.standard
-            userDefaults.set(newValue, forKey: Keys.questionOrderType)
+            userDefaults.set(newValue.rawValue, forKey: Keys.questionOrderType)
         }
-        
     }
+    
 }

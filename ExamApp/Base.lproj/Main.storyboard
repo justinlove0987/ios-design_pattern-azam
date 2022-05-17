@@ -82,7 +82,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Settings" id="bqY-cf-skt">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="va7-D0-AXB"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="va7-D0-AXB">
+                            <connections>
+                                <action selector="close" destination="wcJ-Nv-Ui2" id="9L0-bv-xrs"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fx-TD-YcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

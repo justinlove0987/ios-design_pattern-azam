@@ -20,10 +20,10 @@
 		8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */; };
 		8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */; };
 		8DE57232213F8090006B06BD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE57231213F8090006B06BD /* Question.swift */; };
-		D02B9D0428324CB500E5BB3D /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */; };
-		D02B9D0528324CB500E5BB3D /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */; };
-		D02B9D0628324CB500E5BB3D /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */; };
 		D02B9D0828324D7700E5BB3D /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B9D0728324D7700E5BB3D /* AppSettingsViewController.swift */; };
+		D0A6EC86283395ED0054EBB8 /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */; };
+		D0A6EC87283395ED0054EBB8 /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC84283395ED0054EBB8 /* 740-gear-toolbar.png */; };
+		D0A6EC88283395ED0054EBB8 /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC85283395ED0054EBB8 /* 740-gear-toolbar@2x.png */; };
 		D0D48D18283227BB00B918FB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D48D17283227BB00B918FB /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +43,10 @@
 		8DE5722A213F64F1006B06BD /* QuestionGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupTableViewController.swift; sourceTree = "<group>"; };
 		8DE5722D213F7CD8006B06BD /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		8DE57231213F8090006B06BD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar@2x.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
-		D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar@3x.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
-		D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear-toolbar.png"; path = "../../../../../../populating-question-order-types-table-view/end/ExamApp/ExamApp/Images/740-gear-toolbar.png"; sourceTree = "<group>"; };
 		D02B9D0728324D7700E5BB3D /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
+		D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
+		D0A6EC84283395ED0054EBB8 /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar.png"; sourceTree = "<group>"; };
+		D0A6EC85283395ED0054EBB8 /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
 		D0D48D17283227BB00B918FB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,9 +136,9 @@
 		D02B9D0028324C7400E5BB3D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D02B9D0328324CB500E5BB3D /* 740-gear-toolbar.png */,
-				D02B9D0128324CB500E5BB3D /* 740-gear-toolbar@2x.png */,
-				D02B9D0228324CB500E5BB3D /* 740-gear-toolbar@3x.png */,
+				D0A6EC84283395ED0054EBB8 /* 740-gear-toolbar.png */,
+				D0A6EC85283395ED0054EBB8 /* 740-gear-toolbar@2x.png */,
+				D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Mohammad Azam";
 				TargetAttributes = {
 					8DE57212213F648B006B06BD = {
@@ -202,12 +202,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE57221213F648C006B06BD /* LaunchScreen.storyboard in Resources */,
-				D02B9D0428324CB500E5BB3D /* 740-gear-toolbar@2x.png in Resources */,
-				D02B9D0528324CB500E5BB3D /* 740-gear-toolbar@3x.png in Resources */,
 				8DE5721E213F648C006B06BD /* Assets.xcassets in Resources */,
-				D02B9D0628324CB500E5BB3D /* 740-gear-toolbar.png in Resources */,
+				D0A6EC87283395ED0054EBB8 /* 740-gear-toolbar.png in Resources */,
 				8DE5721C213F648B006B06BD /* Main.storyboard in Resources */,
 				8DC0672D21405EDA00402650 /* math.json in Resources */,
+				D0A6EC88283395ED0054EBB8 /* 740-gear-toolbar@2x.png in Resources */,
+				D0A6EC86283395ED0054EBB8 /* 740-gear-toolbar@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +280,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -341,6 +342,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

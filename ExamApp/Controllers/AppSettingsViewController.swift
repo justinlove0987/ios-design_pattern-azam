@@ -10,6 +10,8 @@ import UIKit
 
 class AddSettingsTableViewController: UITableViewController {
     
+    let appSettings = AppSettings.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.tableFooterView = UIView()
@@ -26,6 +28,25 @@ class AddSettingsTableViewController: UITableViewController {
         
         cell.textLabel?.text = questionOrderType.title
         
+        if appSettings.questionOrderType == questionOrderType {
+            cell.accessoryType = .checkmark
+        } else {
+            cell.accessoryType = .none
+        }
+        
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let questionOrderType = QuestionOrderType.allCases[indexPath.row]
+        appSettings.questionOrderType = questionOrderType
+        
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+    
+    @IBAction func close() {
+        self.dismiss(animated: true, completion: nil)
     }
 }
