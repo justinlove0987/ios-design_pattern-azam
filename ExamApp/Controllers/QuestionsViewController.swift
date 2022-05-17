@@ -18,6 +18,8 @@ class QuestionsViewController :UIViewController {
     
     var questionStrategy :QuestionStrategy!
     
+    let appSettings = AppSettings.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,6 +44,10 @@ class QuestionsViewController :UIViewController {
     }
     
     private func showQuestion() {
+        if appSettings.questionOrderType == .random {
+            questionStrategy.questions.shuffle()
+        }
+        
         let question = questionStrategy.nextQuestion()
         self.questionTextLabel.text = question.text
     }
