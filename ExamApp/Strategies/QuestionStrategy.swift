@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol QuestionStrategy {
+@objc protocol QuestionStrategy {
     
     var questions :[Question] { get set }
     var questionIndex :Int { get set }

@@ -11,7 +11,10 @@ import UIKit
 
 class QuestionsViewController :UIViewController {
     
-    @IBOutlet weak var questionTextLabel :UILabel! 
+    @IBOutlet weak var questionTextLabel :UILabel!
+    @IBOutlet weak var questionNumberLabel: UILabel!
+    
+    var observable: QuestionStrategyObservable!
     
     var questionGroup :QuestionGroup!
     private var questions = [Question]()
@@ -19,6 +22,8 @@ class QuestionsViewController :UIViewController {
     var questionStrategy :QuestionStrategy!
     
     let appSettings = AppSettings.shared
+    
+    private var keyValueObservation: NSKeyValueObservation?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,10 +42,21 @@ class QuestionsViewController :UIViewController {
             case .json:
                 self.questionStrategy = QuestionJSONStrategy(name: questionGroup.course.rawValue)
             case .xml:
-                self.questionStrategy = QuestionXMLStrategy(name :questionGroup.course.rawValue)
+                print("foo - XML Strategy")
+//                self.questionStrategy = QuestionXMLStrategy(name :questionGroup.course.rawValue)
+        }
+        
+        self.observable = QuestionStrategyObservable(strategy: questionStrategy)
+        self.keyValueObservation = self.observable.observe(\.strategy?.questionIndex, options: [.new]) { object, change in
+            self.questionNumberLabel.text = "\(object.strategy.questionIndex)/\(object.strategy.questions.count)"
         }
         
         showQuestion()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        self.keyValueObservation = nil
     }
     
     private func showQuestion() {

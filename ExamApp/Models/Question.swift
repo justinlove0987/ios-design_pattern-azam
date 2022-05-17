@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Question :Decodable {
+class Question :NSObject, Decodable {
     
     var text :String
     var point :Double

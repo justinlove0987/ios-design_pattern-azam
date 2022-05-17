@@ -24,6 +24,7 @@
 		D0A6EC86283395ED0054EBB8 /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */; };
 		D0A6EC87283395ED0054EBB8 /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC84283395ED0054EBB8 /* 740-gear-toolbar.png */; };
 		D0A6EC88283395ED0054EBB8 /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A6EC85283395ED0054EBB8 /* 740-gear-toolbar@2x.png */; };
+		D0A6EC8B28339C970054EBB8 /* QuestionStrategyObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6EC8A28339C970054EBB8 /* QuestionStrategyObservable.swift */; };
 		D0D48D18283227BB00B918FB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D48D17283227BB00B918FB /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
 		D0A6EC84283395ED0054EBB8 /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar.png"; sourceTree = "<group>"; };
 		D0A6EC85283395ED0054EBB8 /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
+		D0A6EC8A28339C970054EBB8 /* QuestionStrategyObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategyObservable.swift; sourceTree = "<group>"; };
 		D0D48D17283227BB00B918FB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 		8DE57215213F648B006B06BD /* ExamApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0A6EC8928339C820054EBB8 /* Observables */,
 				D02B9D0028324C7400E5BB3D /* Images */,
 				8DC0672B21405EC500402650 /* Resources */,
 				8DC0672621405DE200402650 /* Strategies */,
@@ -141,6 +144,14 @@
 				D0A6EC83283395ED0054EBB8 /* 740-gear-toolbar@3x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		D0A6EC8928339C820054EBB8 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6EC8A28339C970054EBB8 /* QuestionStrategyObservable.swift */,
+			);
+			path = Observables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				8DC0672A21405E8300402650 /* QuestionJSONStrategy.swift in Sources */,
 				8D592FA82140343700F12306 /* QuestionGroup.swift in Sources */,
 				8DE57232213F8090006B06BD /* Question.swift in Sources */,
+				D0A6EC8B28339C970054EBB8 /* QuestionStrategyObservable.swift in Sources */,
 				8DC0672F21405F7600402650 /* QuestionXMLStrategy.swift in Sources */,
 				8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */,
 				8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */,

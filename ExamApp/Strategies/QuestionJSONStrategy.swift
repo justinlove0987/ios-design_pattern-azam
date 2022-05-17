@@ -8,10 +8,10 @@
 
 import Foundation
 
-class QuestionJSONStrategy :QuestionStrategy {
+class QuestionJSONStrategy :NSObject, QuestionStrategy {
     
     var questions :[Question] = [Question]()
-    var questionIndex :Int = 0
+    dynamic var questionIndex :Int = 0
     var currentQuestion :Question!
     
     func nextQuestion() -> Question {
